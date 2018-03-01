@@ -12,8 +12,9 @@ class Backer
   
   #argument is a project object; 
   def back_project(project)
-    self.backed_projects << project
     binding.pry
+    self.backed_projects << project
+    
   end
   
 end 
