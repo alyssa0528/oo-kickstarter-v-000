@@ -5,10 +5,11 @@ class Project
   
   def initialize(title)
     @title = title
+    @backers = []
     #binding.pry
   end 
   
-  def add_backer
-    
+  def add_backer(backer)
+    @backers << backer 
   end 
 end 
