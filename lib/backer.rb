@@ -13,7 +13,7 @@ class Backer
   
   #argument is a project object; 
   def back_project(project)
-    @backed_projects << project
+    self.backed_projects << project
     @backed_projects
   end
   
