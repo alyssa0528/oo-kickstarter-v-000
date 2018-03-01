@@ -16,6 +16,7 @@ class Backer
   
   def back_project 
     self 
+    binding.pry
   end 
   
   
