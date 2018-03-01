@@ -8,4 +8,7 @@ class Project
     #binding.pry
   end 
   
+  def add_backer
+    
+  end 
 end 
