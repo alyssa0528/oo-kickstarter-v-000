@@ -1,7 +1,7 @@
 require 'pry'
 
 class Project
-  attr_accessor :title, :backers, :backer 
+  attr_accessor :title, :backer 
   attr_reader :backers
   
   def initialize(title)
@@ -14,10 +14,9 @@ class Project
     @backers << backer 
   end 
   
-  #backers attr_reader added above
-  #def backers
-   # @backers 
-  #end 
+  def backers
+    @backers 
+  end 
   
   
 end 
