@@ -9,13 +9,13 @@ class Backer
     #binding.pry
   end 
   
-  def project 
-    @project_name = Project.new(title)
-  end 
+  #def project 
+   # @project_name = Project.new(title)
+  #end 
   
-  
-  def back_project(@project_name)
+  def back_project(project)
+    project = Project.new(title)
     @backed_projects = []
-    @backed_projects << @project_name
+    @backed_projects << @project
   end 
 end 
