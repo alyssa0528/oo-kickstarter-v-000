@@ -4,6 +4,8 @@ class Backer
   attr_accessor :name
   attr_reader :title
   
+  @backed_projects = []
+  
   def initialize(name)
     @name = name
     #binding.pry
@@ -15,7 +17,6 @@ class Backer
   
   def back_project(project)
     project = Project.new(title)
-    @backed_projects = []
     @backed_projects << project
     #binding.pry
   end 
