@@ -8,15 +8,10 @@ class Backer
   
   def initialize(name)
     @name = name
-    #binding.pry
   end 
   
-  #def project 
-   # @project_name = Project.new(title)
-  #end 
-  
   def back_project(project)
-    project = Project.new(title)
+    Project.new(title) = project
     @backed_projects << project
     #binding.pry
   end 
